@@ -16,7 +16,6 @@ public:
          {
             return NULL;
         }
-        
         if(root->val==val)
             return root;
         if(root->val > val)
